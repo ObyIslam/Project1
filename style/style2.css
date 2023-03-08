@@ -11,9 +11,9 @@
   }
   
   a:visited { text-decoration: none; color:white;}
-  a:link { text-decoration: none; color:blue; }
+  a:link { text-decoration: none; color:white; }
   a:focus{text-decoration: none;color: white;}
-  a:hover, a:active{ text-decoration: none; color:darkblue}
+  
   
   ul {
     margin: 0;
