@@ -1,0 +1,48 @@
+.header{
+    text-align: center;
+    background-color: #2a5c89;
+    padding: 15px;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 98.1%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a:visited { text-decoration: none; color:white;}
+  a:link { text-decoration: none; color:blue; }
+  a:focus{text-decoration: none;color: white;}
+  a:hover, a:active{ text-decoration: none; color:darkblue}
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    width: 22vh;
+    height: 100vh;
+    background-color: #3172ae;
+    position:absolute;
+    top:13vh;
+    left: 0px;
+  }
+  
+  li a {
+    position: sticky;
+    display: block;
+    padding: 4vh;
+    text-decoration: none;
+    margin-top: 0px;  
+    margin-bottom: 0px;
+    font-size: larger;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  
+  li a:hover {
+    background-color: #2a5c89;
+    transition: background-color 0.4s ease;
+    color: darkblue;
+  }
